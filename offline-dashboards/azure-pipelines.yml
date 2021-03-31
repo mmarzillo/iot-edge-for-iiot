@@ -7,6 +7,9 @@ trigger:
     include:
     - 'offline-dashboards/*'
 
+pool:
+  vmImage: "ubuntu-20.04"
+
 pr:
   autoCancel: true
 
